@@ -1,0 +1,88 @@
+body {
+  font-family: 'Georgia', serif;
+  background: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+}
+
+.certificate {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border: 12px solid #F4A300;
+  background: white;
+  position: relative;
+}
+
+.logo {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.subtext {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#recipientName {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.qr img {
+  width: 90px;
+  height: auto;
+}
+
+.description {
+  font-size: 16px;
+  margin: 10px auto 30px;
+  max-width: 600px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.date label {
+  font-weight: bold;
+}
+
+.signature img {
+  width: 120px;
+  height: auto;
+}
+
+.sign-name {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background: #F4A300;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
